@@ -3,7 +3,7 @@ I made a study about the quality of wines.
 
 First, given a wine, my goal was to classify it according to its 'quality'. The 'quality' variable can assume the following values: 3, 4, 5, 6, 7, 8.
 
-After that, I created a new attribute, called 'binary', to model a binary classification: "good" wines and "not good" wines. My criterion was: If the quality is major or equal than 7, it's a "good" wine. Otherwise, it's a "not good" wine.
+After that, I created a new attribute, called 'binary', to model a binary classification: "good" wines and "not good" wines. My criterion was: If the quality is is greater than or equal to 7, it's a "good" wine. Otherwise, it's a "not good" wine.
 
 After training different models, I got the following models as being the best ones:
 
