@@ -7,6 +7,6 @@ After that, I created a new attribute, called 'binary', to model a binary classi
 
 After training different models, I got the following models as being the best ones:
 
-- Random Forest to the classification between 3, 4, 5, 6, 7 and 8. After testing, I obtained a best performance with these features: 'volatile acidity', 'chlorides', 'free sulfur dioxide', 'total sulfur, dioxide', 'density', 'sulphates' and 'alcohol';
+- Random Forest to the classification between 3, 4, 5, 6, 7 and 8. After testing different sets of features, I obtained the best performance with these features: 'volatile acidity', 'chlorides', 'free sulfur dioxide', 'total sulfur, dioxide', 'density', 'sulphates' and 'alcohol';
 
-- Logistic Regression to the classification between "good" and "not good". I obtained a best performance with these features: 'volatile acidity', 'chlorides', 'residual sugar', 'pH', 'free sulfur dioxide', 'density', 'total sulfur dioxide', 'sulphates' and 'alcohol'.
+- Logistic Regression to the classification between "good" and "not good". I obtained the best performance with these features: 'volatile acidity', 'chlorides', 'residual sugar', 'pH', 'free sulfur dioxide', 'density', 'total sulfur dioxide', 'sulphates' and 'alcohol'.
